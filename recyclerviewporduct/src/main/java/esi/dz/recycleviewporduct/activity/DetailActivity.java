@@ -15,10 +15,8 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        setContentView(R.layout.activity_detail);
         Intent intent = getIntent();
         Product product = (Product) intent.getSerializableExtra("product");
-
         ImageView imageDetail = (ImageView) findViewById(R.id.imageDetail);
         TextView textName = (TextView) findViewById(R.id.textName);
         TextView textSize = (TextView) findViewById(R.id.textSize);

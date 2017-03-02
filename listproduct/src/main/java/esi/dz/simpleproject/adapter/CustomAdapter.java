@@ -14,9 +14,6 @@ import esi.dz.simpleproject.R;
 import esi.dz.simpleproject.model.Product;
 
 
-/**
- * Created by pc on 01/03/2017.
- */
 
 public class CustomAdapter extends BaseAdapter {
     private Context context;

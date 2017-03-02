@@ -8,13 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import java.util.List;
-
 import esi.dz.recycleviewporduct.R;
 import esi.dz.recycleviewporduct.activity.DetailActivity;
-import esi.dz.recycleviewporduct.activity.MainActivity;
 import esi.dz.recycleviewporduct.model.Product;
 
 
@@ -64,7 +60,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         holder.imageList.setImageResource(product.getListImage());
         holder.textName.setText(product.getName());
         holder.textPrice.setText(product.getPrice());
-        //  delete item when clicking on product names
+        //  delete item when clicking on the product name
         holder.textName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
