@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recycleview Porduct</string>
+    <string name="size_label">Taille: </string>
+    <string name="price_label">Prix: </string>
+    <string name="description_label">Description: </string>
+    <string-array name="descriptions">
+        <item>PRO -Chaussures de foot à crampons-electric green/black flash/lime/white</item>
+        <item>basses - palm green/sail/legion green/black</item>
+
+    </string-array>
+</resources>
