@@ -1,1 +1,1 @@
-include ':listproduct', ':recycleviewporduct'
+include ':listproduct', ':recyclerviewporduct', ':adaptativelist'
