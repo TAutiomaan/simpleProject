@@ -33,7 +33,7 @@ public class DataBaseHandler extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public boolean addStudent (Student student) {
+    public boolean addStudent(Student student) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("firstname",student.getFirstName());
@@ -47,12 +47,14 @@ public class DataBaseHandler extends SQLiteOpenHelper {
         String query ="select * from student";
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(query,null);
-        if (cursor.moveToFirst()) {
+        cursor.moveToFirst();
+        while(!cursor.isAfterLast()) {
             Student student = new Student();
             student.setId(cursor.getInt(0));
             student.setFirstName(cursor.getString(1));
             student.setLastName(cursor.getString(2));
             listStudent.add(student);
+            cursor.moveToNext();
         }
         db.close();
         return listStudent;
