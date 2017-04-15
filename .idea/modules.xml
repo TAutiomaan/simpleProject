@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/adaptativelist/adaptativelist.iml" filepath="$PROJECT_DIR$/adaptativelist/adaptativelist.iml" />
       <module fileurl="file://$PROJECT_DIR$/listproduct/listproduct.iml" filepath="$PROJECT_DIR$/listproduct/listproduct.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recycleviewporduct/recycleviewporduct.iml" filepath="$PROJECT_DIR$/recycleviewporduct/recycleviewporduct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewporduct/recyclerviewporduct.iml" filepath="$PROJECT_DIR$/recyclerviewporduct/recyclerviewporduct.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleProject.iml" filepath="$PROJECT_DIR$/simpleProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlitesample/sqlitesample.iml" filepath="$PROJECT_DIR$/sqlitesample/sqlitesample.iml" />
     </modules>
   </component>
 </project>

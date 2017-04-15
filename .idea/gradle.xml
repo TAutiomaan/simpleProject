@@ -9,8 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/adaptativelist" />
             <option value="$PROJECT_DIR$/listproduct" />
-            <option value="$PROJECT_DIR$/recycleviewporduct" />
+            <option value="$PROJECT_DIR$/recyclerviewporduct" />
+            <option value="$PROJECT_DIR$/sqlitesample" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
